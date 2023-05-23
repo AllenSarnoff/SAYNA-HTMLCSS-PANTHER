@@ -1,0 +1,226 @@
+@font-face {
+    font-family: "Panthera";
+    src: url("fonts/panthera.ttf");
+}
+
+@font-face {
+    font-family: "Beyno" ;
+    src: url("fonts/BEYNO.ttf");
+}
+
+@font-face {
+    font-family: "Wakanda forever";
+    src: url("fonts/WakandaForever-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Cantarell";
+    src: url("fonts/Cantarell-Regular.ttf");
+}
+
+header{
+    font-family: "Beyno";
+    margin-left: 7%;
+    margin-top: 2%;
+    display: inline-block;
+}
+
+header a{
+    color: whitesmoke;
+    text-decoration: none;
+    margin-right: 45px;
+    
+}
+
+a{
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+#navigation{
+    position: absolute;
+    top: 6%;
+    right: 7%;
+}
+
+.logo{
+    display: block;
+
+}
+
+body{
+    background-image: url("Illustrations + Logo/All pages/arrière_plan.png");
+    color: whitesmoke;
+    font-family: "Cantarell";
+    width: 100%;
+}
+
+body{
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    animation: fade-in 2s ease-in-out forwards;
+  }
+  
+  @keyframes fade-in {
+    0% {
+      left: -100%;
+    }
+    100% {
+      left: 0%;
+    }
+  }
+
+.Okoye{
+    width: 60%;
+    float: left;
+}
+
+.view{
+    display: inline-block;
+}
+
+.intro{
+    margin-top: 19%;
+    margin-right: 3%;
+}
+
+h1{
+    font-family: "Beyno";
+    font-weight: 300;
+    font-size: 56px;
+    color: #9E91B7;
+    top: 4%; 
+}
+
+.intro p{
+    margin-top: 6%;
+    padding: 4%;
+    padding-bottom: 12%;
+    padding-top: 8%;
+    font-size: 73%;
+    margin: auto;
+    text-align: justify;
+    background-image: url("Illustrations + Logo/Enigme/Pantherenigme2.png");
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+.line{
+    width: 57%;
+    color: white;
+    float: right;
+    margin-bottom: 8%;
+}
+
+.enigme{
+    font-family: "Wakanda forever";
+    font-size: x-large;
+    width: 80%;
+    letter-spacing:10px;
+    margin-bottom: 6%;
+}
+
+article{
+    width: 80%;
+    margin: auto;
+}
+
+.traduction{
+    width: 62%;
+}
+
+.information{
+    width: 36%;
+    float: right;
+    text-align: center;
+    font-size: 64%;
+    padding: 11%;
+    padding-top: 15%;
+    padding-bottom: 15%;
+    background-image: url("Illustrations + Logo/Enigme/Pantherenigme2.png");
+    background-position: top;
+    background-repeat: no-repeat;
+    align-items: center;
+}
+
+.answer{
+    margin-top: 20%;
+}
+
+#ans{
+    display: block;
+    margin-top: 1%;
+    width: 35%;
+    font-size: large;
+    color: whitesmoke;
+    padding: 1%;
+    padding-left: 3%;
+    background-color: transparent;
+    border-radius: 20px;
+}
+
+.submit{
+    display: block;
+    margin-top: 6%;
+    margin-left: 12%;
+    margin-bottom: 10%;
+    font-family: "Cantarell";
+    color: black;
+    background-color: #F2CEF2;
+    padding: 1% 4% 1% 4%;
+    border-radius: 20px;
+}
+
+footer{
+    background-image: url("Illustrations + Logo/All pages/back_footer.png");
+    width: 100%;
+    padding: 6%;
+    padding-left: 10%;
+    display: inline-block;
+}
+
+.link{
+    position: absolute;
+    left: 17%;
+    top: 306%;
+}
+
+.images{
+    float: left;
+    margin-right: 10%;
+}
+
+.about{
+    display: inline-block;
+    /* right: 20%; */
+}
+
+.pages{
+    display: block;
+    margin-bottom: 15%;
+}
+
+.pages:hover{
+    text-decoration: underline;
+}
+
+.about p{
+    float: left;
+    font-size: larger;
+}
+
+.contacts{
+    float: right;
+    margin-left: 2%;
+}
+
+.contacts img:hover, .link:hover, .circles:hover{
+    transform: scale(1.1);
+}
+
+.terms{
+    margin-top: 5%
+}
